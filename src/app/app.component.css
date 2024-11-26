@@ -1,0 +1,29 @@
+.mirror_container {
+    height: 100vh;
+
+    h1 {
+        position: fixed;
+        top: 0px;
+        margin-inline: 1.5rem;
+        z-index: 1;
+        color: white;
+    }
+
+    video {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        transform: rotateY(180deg);
+    }
+
+    button {
+        position: fixed;
+        bottom: 1.5rem;
+        min-width: calc(100% - 3rem);
+        margin-inline: 1.5rem;
+        color: white;
+        background-color: rgb(0, 0, 90);
+    }
+}
