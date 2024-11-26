@@ -27,6 +27,6 @@ export class AppComponent implements OnInit {
   }
 
   openGithubRepo(): void {
-    window.open('', '_blank');
+    window.open('https://github.com/vitor-gercov/site-espelho', '_blank');
   }
 }
